@@ -65,3 +65,260 @@ Stack trace:
 REQUEST_URI=/yii/fundoln/nosotros/index
 HTTP_REFERER=http://localhost/yii/fundoln/index.php
 ---
+2017/02/21 13:42:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "nosotros".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('nosotros')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('nosotros')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('nosotros/nosotr...')
+#3 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/yii/fundoln/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/fundoln/nosotros/nosotros/index
+HTTP_REFERER=http://localhost/yii/fundoln/nosotros/index
+---
+2017/02/21 13:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "nosotros".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('nosotros')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('nosotros')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('nosotros/nosotr...')
+#3 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/yii/fundoln/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/fundoln/nosotros/nosotros/index
+HTTP_REFERER=http://localhost/yii/fundoln/nosotros/index
+---
+2017/02/21 13:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('nosotros/index....')
+#3 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/html/yii/fundoln/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/fundoln/nosotros/index.php
+HTTP_REFERER=http://localhost/yii/fundoln/nosotros/index
+---
+2017/02/21 13:48:32 [error] [php] Array to string conversion (/var/www/html/yii/framework/web/helpers/CHtml.php:157)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#1 /var/www/html/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#2 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#3 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#4 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#5 /var/www/html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#6 /var/www/html/yii/framework/web/CBaseController.php(300): SiteController->endWidget()
+#7 /var/www/html/yii/fundoln/protected/views/layouts/column1.php(6): SiteController->endContent()
+#8 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#9 /var/www/html/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#10 /var/www/html/yii/framework/web/CController.php(784): SiteController->renderFile()
+#11 /var/www/html/yii/fundoln/protected/controllers/SiteController.php(32): SiteController->render()
+#12 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#13 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /var/www/html/yii/framework/web/CController.php(286): SiteController->runAction()
+#15 /var/www/html/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#16 /var/www/html/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#17 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/html/yii/fundoln/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/fundoln/index.php
+in /var/www/html/yii/fundoln/protected/views/layouts/main.php (58)
+in /var/www/html/yii/fundoln/protected/views/layouts/column1.php (6)
+in /var/www/html/yii/fundoln/protected/controllers/SiteController.php (32)
+2017/02/21 13:48:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<a href=".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('<a href=')
+#1 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/yii/fundoln/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/fundoln/%3Ca%20href=
+HTTP_REFERER=http://localhost/yii/fundoln/index.php
+---
+2017/02/21 13:48:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<a href=".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('<a href=')
+#1 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/yii/fundoln/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/fundoln/%3Ca%20href=
+HTTP_REFERER=http://localhost/yii/fundoln/index.php
+---
+2017/02/21 13:55:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo-lagunu.png".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo-lagunu...')
+#1 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/yii/fundoln/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/fundoln/img/logo-lagunu.png
+HTTP_REFERER=http://localhost/yii/fundoln/
+---
+2017/02/21 13:55:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo-lagunu.png".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo-lagunu...')
+#1 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/yii/fundoln/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/fundoln/img/logo-lagunu.png
+HTTP_REFERER=http://localhost/yii/fundoln/
+---
+2017/02/21 13:56:06 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (/var/www/html/yii/framework/web/helpers/CHtml.php:98)
+Stack trace:
+#0 /var/www/html/yii/framework/web/helpers/CHtml.php(153): renderAttributes()
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(426): tag()
+#2 /var/www/html/yii/fundoln/protected/views/layouts/main.php(59): image()
+#3 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#4 /var/www/html/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#5 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#6 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#7 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 /var/www/html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#9 /var/www/html/yii/framework/web/CBaseController.php(300): SiteController->endWidget()
+#10 /var/www/html/yii/fundoln/protected/views/layouts/column1.php(6): SiteController->endContent()
+#11 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#12 /var/www/html/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#13 /var/www/html/yii/framework/web/CController.php(784): SiteController->renderFile()
+#14 /var/www/html/yii/fundoln/protected/controllers/SiteController.php(32): SiteController->render()
+#15 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#16 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#17 /var/www/html/yii/framework/web/CController.php(286): SiteController->runAction()
+#18 /var/www/html/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#19 /var/www/html/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#20 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#22 /var/www/html/yii/fundoln/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/fundoln/
+in /var/www/html/yii/fundoln/protected/views/layouts/main.php (59)
+in /var/www/html/yii/fundoln/protected/views/layouts/column1.php (6)
+in /var/www/html/yii/fundoln/protected/controllers/SiteController.php (32)
+2017/02/21 13:57:11 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (/var/www/html/yii/framework/web/helpers/CHtml.php:98)
+Stack trace:
+#0 /var/www/html/yii/framework/web/helpers/CHtml.php(153): renderAttributes()
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(426): tag()
+#2 /var/www/html/yii/fundoln/protected/views/layouts/main.php(59): image()
+#3 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#4 /var/www/html/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#5 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#6 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#7 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 /var/www/html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#9 /var/www/html/yii/framework/web/CBaseController.php(300): SiteController->endWidget()
+#10 /var/www/html/yii/fundoln/protected/views/layouts/column1.php(6): SiteController->endContent()
+#11 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#12 /var/www/html/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#13 /var/www/html/yii/framework/web/CController.php(784): SiteController->renderFile()
+#14 /var/www/html/yii/fundoln/protected/controllers/SiteController.php(32): SiteController->render()
+#15 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#16 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#17 /var/www/html/yii/framework/web/CController.php(286): SiteController->runAction()
+#18 /var/www/html/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#19 /var/www/html/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#20 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#22 /var/www/html/yii/fundoln/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/fundoln/
+in /var/www/html/yii/fundoln/protected/views/layouts/main.php (59)
+in /var/www/html/yii/fundoln/protected/views/layouts/column1.php (6)
+in /var/www/html/yii/fundoln/protected/controllers/SiteController.php (32)
+2017/02/21 13:57:33 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (/var/www/html/yii/framework/web/helpers/CHtml.php:98)
+Stack trace:
+#0 /var/www/html/yii/framework/web/helpers/CHtml.php(153): renderAttributes()
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(426): tag()
+#2 /var/www/html/yii/fundoln/protected/views/layouts/main.php(59): image()
+#3 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#4 /var/www/html/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#5 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#6 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#7 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 /var/www/html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#9 /var/www/html/yii/framework/web/CBaseController.php(300): SiteController->endWidget()
+#10 /var/www/html/yii/fundoln/protected/views/layouts/column1.php(6): SiteController->endContent()
+#11 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#12 /var/www/html/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#13 /var/www/html/yii/framework/web/CController.php(784): SiteController->renderFile()
+#14 /var/www/html/yii/fundoln/protected/controllers/SiteController.php(32): SiteController->render()
+#15 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#16 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#17 /var/www/html/yii/framework/web/CController.php(286): SiteController->runAction()
+#18 /var/www/html/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#19 /var/www/html/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#20 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#22 /var/www/html/yii/fundoln/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/fundoln/
+in /var/www/html/yii/fundoln/protected/views/layouts/main.php (59)
+in /var/www/html/yii/fundoln/protected/views/layouts/column1.php (6)
+in /var/www/html/yii/fundoln/protected/controllers/SiteController.php (32)
+2017/02/21 13:57:35 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (/var/www/html/yii/framework/web/helpers/CHtml.php:98)
+Stack trace:
+#0 /var/www/html/yii/framework/web/helpers/CHtml.php(153): renderAttributes()
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(426): tag()
+#2 /var/www/html/yii/fundoln/protected/views/layouts/main.php(59): image()
+#3 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#4 /var/www/html/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#5 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#6 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#7 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 /var/www/html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#9 /var/www/html/yii/framework/web/CBaseController.php(300): SiteController->endWidget()
+#10 /var/www/html/yii/fundoln/protected/views/layouts/column1.php(6): SiteController->endContent()
+#11 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#12 /var/www/html/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#13 /var/www/html/yii/framework/web/CController.php(784): SiteController->renderFile()
+#14 /var/www/html/yii/fundoln/protected/controllers/SiteController.php(32): SiteController->render()
+#15 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#16 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#17 /var/www/html/yii/framework/web/CController.php(286): SiteController->runAction()
+#18 /var/www/html/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#19 /var/www/html/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#20 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#22 /var/www/html/yii/fundoln/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/fundoln/
+in /var/www/html/yii/fundoln/protected/views/layouts/main.php (59)
+in /var/www/html/yii/fundoln/protected/views/layouts/column1.php (6)
+in /var/www/html/yii/fundoln/protected/controllers/SiteController.php (32)
+2017/02/21 13:57:44 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (/var/www/html/yii/framework/web/helpers/CHtml.php:98)
+Stack trace:
+#0 /var/www/html/yii/framework/web/helpers/CHtml.php(153): renderAttributes()
+#1 /var/www/html/yii/framework/web/helpers/CHtml.php(426): tag()
+#2 /var/www/html/yii/fundoln/protected/views/layouts/main.php(60): image()
+#3 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#4 /var/www/html/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#5 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#6 /var/www/html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#7 /var/www/html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 /var/www/html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#9 /var/www/html/yii/framework/web/CBaseController.php(300): SiteController->endWidget()
+#10 /var/www/html/yii/fundoln/protected/views/layouts/column1.php(6): SiteController->endContent()
+#11 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#12 /var/www/html/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#13 /var/www/html/yii/framework/web/CController.php(784): SiteController->renderFile()
+#14 /var/www/html/yii/fundoln/protected/controllers/SiteController.php(32): SiteController->render()
+#15 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#16 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#17 /var/www/html/yii/framework/web/CController.php(286): SiteController->runAction()
+#18 /var/www/html/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#19 /var/www/html/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#20 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#22 /var/www/html/yii/fundoln/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/fundoln/
+in /var/www/html/yii/fundoln/protected/views/layouts/main.php (60)
+in /var/www/html/yii/fundoln/protected/views/layouts/column1.php (6)
+in /var/www/html/yii/fundoln/protected/controllers/SiteController.php (32)
+2017/02/21 14:20:39 [error] [php] Undefined variable: valor (/var/www/html/yii/fundoln/protected/views/nosotros/index.php:60)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(869): NosotrosController->renderFile()
+#1 /var/www/html/yii/framework/web/CController.php(782): NosotrosController->renderPartial()
+#2 /var/www/html/yii/fundoln/protected/controllers/NosotrosController.php(7): NosotrosController->render()
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): NosotrosController->actionIndex()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/yii/framework/web/CController.php(286): NosotrosController->runAction()
+#6 /var/www/html/yii/framework/web/CController.php(265): NosotrosController->runActionWithFilters()
+#7 /var/www/html/yii/framework/web/CWebApplication.php(282): NosotrosController->run()
+#8 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /var/www/html/yii/fundoln/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/fundoln/nosotros/index
+in /var/www/html/yii/fundoln/protected/views/nosotros/index.php (60)
+in /var/www/html/yii/fundoln/protected/controllers/NosotrosController.php (7)
+in /var/www/html/yii/fundoln/index.php (13)
