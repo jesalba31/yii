@@ -1,0 +1,67 @@
+2017/02/20 00:43:03 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/yii/fundoln/protected/controllers/SiteController.php(32): CController->render('index')
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/yii/fundoln/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/fundoln/
+---
+2017/02/20 00:54:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yii/fundoln/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/fundoln/css/screen.css
+HTTP_REFERER=http://localhost/yii/fundoln/
+---
+2017/02/20 00:54:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yii/fundoln/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/fundoln/css/form.css
+HTTP_REFERER=http://localhost/yii/fundoln/
+---
+2017/02/20 00:54:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /var/www/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/yii/fundoln/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/fundoln/css/print.css
+HTTP_REFERER=http://localhost/yii/fundoln/
+---
+2017/02/20 10:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.ph".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index.ph')
+#1 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/yii/fundoln/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/fundoln/index.ph
+---
+2017/02/20 15:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.ph".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index.ph')
+#1 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/yii/fundoln/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/fundoln/index.ph
+---
+2017/02/20 15:45:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nosotros/index".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('nosotros/index')
+#1 /var/www/html/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/yii/fundoln/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/fundoln/nosotros/index
+HTTP_REFERER=http://localhost/yii/fundoln/index.php
+---
