@@ -52,25 +52,27 @@
                     </button>
                     <!--logo start-->
                     <div>
-                        <a href="index.php" class="logo">
+                        <a href="" class="logo">
                             <!--<i class="icon-layers"></i>
                             <span>Fundo</span> Laguna Nueva</a>-->
                             <img width="60px" src="<?php echo Yii::app()->baseUrl; ?>/img/logo-lagunue.png">
+                       	 
+
                             <span>Fundo</span> Laguna Nueva</a>
                     </div>
                     <!--logo end-->
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul style="padding-top:11px" class="nav navbar-nav pull-right" id="main-menu">
-                        <li><a href="#intro">Inicio</a>
-                        </li>
+                    <ul style="padding-top:11px" class="nav navbar-nav pull-right" /*id="main-menu"*/ >
+                        <!--<li><a href="#intro">Inicio</a>
+                        </li>-->
+                        <li><?php echo CHtml::link('Inicio', array('site/index')); ?></li>
                         <li><a href="#features">Productos y Servicios</a>
                         </li>
                         <!--<li><a href="#pricing">Pricing</a>
                         </li>-->
-                        <li><a href="nosotros/index">Nosotros</a>
-                        <!--<li><?php echo CHtml::link("Nosotros","nosotros/index"); ?>-->
-
+                        <li >
+                             <?php echo CHtml::link('Nosotros', array('nosotros/index')); ?>
                         </li>
                         <!--<li><a href="#team">Team</a>
                         </li>-->
