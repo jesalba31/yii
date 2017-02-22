@@ -76,7 +76,10 @@
                         </li>
                         <!--<li><a href="#team">Team</a>
                         </li>-->
-                        <li><a href="#contact">Contacto</a>
+                        <!--<li><a href="#contact">Contacto</a>
+                        </li>-->
+                        <li >
+                             <?php echo CHtml::link('Contactanos', array('contacto/index')); ?>
                         </li>
                     </ul>
                 </div>
@@ -117,7 +120,16 @@
 </body>
 
 </html>
-
+<script>
+         var bucler = 1;
+        $(document).ready(function() {  
+          var body = $("body").height();
+          var ventana = $(window).height();
+          if (ventana > body || ventana == body) {
+            $("#footer").css("position","absolute").css("bottom",0);
+          }
+        });
+    </script>
 <script>
 
      var swiper = new Swiper('.swiper-container', {
