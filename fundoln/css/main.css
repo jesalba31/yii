@@ -1063,7 +1063,7 @@ fieldset[disabled] .btn-warning.active {
   -o-background-size: cover;
   background-size: cover;*/
   color: #777;
-  height: 280px;
+  height: auto;
 }
 #testimonials .inner {
   /*background-color: #27b6af;*/

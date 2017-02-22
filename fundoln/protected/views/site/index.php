@@ -85,56 +85,69 @@
     </div>
 </section>
 
+    <section id="testimonials">
+        <div class="inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1 style="padding-top: 30px;" class="verde">Agropecuaria Industrial D & A C.A. 2011</h1>
+                        <div id="">
+                            <div class="item">
+                                <p>"Empresa agropecuaria fundada en el año 2015, con la finalidad de producir masivamente ganado bovino y vacuno prestando sus servicios con biotecnología de punta"</p>
+                                <!--<div class="client-info">
+                                    <div class="name">Dieter Rams</div>
+                                    <div class="position">Industrial designer</div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Features Section
     ================================================== -->
-    <!--<section id="features">
+    <section id="features">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <header>
-
+                        <h1 class="verde">Nuestros Productos</h1>
+                        <div class="spacer"></div>
+                        <p style="font-size:1.2em" class="text-muted">Enfocados en la Biotecnología ofrecemos los siguientes productos.</p>
+                    </header>
+                </div>
             <div class="row">
-                <div class="col-sm-3 text-center wow fadeInUp">
+                <div class="col-xs-6 col-sm-4 text-center wow fadeInLeft">
                     <div class="icon-wrapper">
-                        <p class="icon-circle">
-                            <i class="icon icon-screen-smartphone"></i>
-                        </p>
+                        <img src="<?php echo Yii::app()->baseUrl ?>/img/venta-semen.jpg" class="img-circle">
                     </div>
-                    <h3>Fully responsive</h3>
-                    <p>Aeterno volumus recusabo vel id, id usu facilisi accusata, in quod inermis rationibus mea.</p>
+                    <h3>Venta de Semen</h3><p></p>
+                    <p>De los toros de alta genética.</p>
                 </div>
-                <div class="col-sm-3 text-center wow fadeInUp">
+                <div class="col-xs-6 col-sm-4 text-center wow fadeInUp">
                     <div class="icon-wrapper">
-                        <p class="icon-circle">
-                            <i class="icon icon-graph"></i>
-                        </p>
+                        <!--<p class="icon-circle">
+                            <i class="icon icon-graph"></i>-->
+                            <img src="<?php echo Yii::app()->baseUrl ?>/img/embriones.jpg" class="img-circle">
+                        <!--</p>-->
                     </div>
-                    <h3>Many Charts</h3>
-                    <p>Aeterno volumus recusabo vel id, id usu facilisi accusata, in quod inermis rationibus mea.</p>
+                    <h3>Transferencia de embriones y preñeces</h3><p></p>
+                    <p>Para ganado vacuno elite y genetica mejorada</p>
                 </div>
-                <div class="col-sm-3 text-center wow fadeInUp">
+                <div class="col-xs-6 col-sm-4 text-center wow fadeInRight">
                     <div class="icon-wrapper">
-                        <p class="icon-circle">
-                            <i class="icon fa fa-html5"></i>
-                        </p>
+                        <img src="<?php echo Yii::app()->baseUrl ?>/img/consumo-humano.jpg" class="img-circle">
                     </div>
-                    <h3>Static Version</h3>
-                    <p>Aeterno volumus recusabo vel id, id usu facilisi accusata, in quod inermis rationibus mea.</p>
-                </div>
-                <div class="col-sm-3 text-center wow fadeInUp">
-                    <div class="icon-wrapper">
-                        <p class="icon-circle">
-                            <i class="icon fa fa-google"></i>
-                        </p>
-                    </div>
-                    <h3>AngularJS Version</h3>
-                    <p>Aeterno volumus recusabo vel id, id usu facilisi accusata, in quod inermis rationibus mea.</p>
-                </div>
+                    <h3>Ganado para consumo humano</h3><p></p>
+                    <p> Ofreciendo carnes de primera calidad. </p>
+                </div>                
             </div>
 
         </div>
-    </section>-->
+    </section>
 
 
 <section id="features">
@@ -142,9 +155,9 @@
             <div class="row">
                 <div style="padding:0 125px" class="col-lg-12 text-center wow fadeInUp">
                     <header>
-                        <h1 class="verde">Productos y Servicios</h1>
+                        <h1 class="verde">Nuestros Servicios</h1>
                         <div class="spacer"></div>
-                        <p style="font-size:1.2em" class="text-muted">En nuestros días la demanda imperiosa de producir alimentos para la población humana con calidad e inocuidad, nos motiva a tomar estrategias bien balanceadas, como es el aprovechamiento integral de los recursos que se utilizan para la producción de leche y carne en nuestras fincas. Motivo por el cual nuestros ofrecemos nuestros servicios en el ambito de:</p>
+                        <p style="font-size:1.2em" class="text-muted">En nuestros días la demanda imperiosa de producir alimentos para la población humana con calidad e inocuidad, nos motiva a tomar estrategias bien balanceadas, como es el aprovechamiento integral de los recursos que se utilizan para la producción  en nuestras fincas. Motivo por el cual ofrecemos nuestros servicios en el ambito de:</p>
                     </header>
                 </div>
             </div>
